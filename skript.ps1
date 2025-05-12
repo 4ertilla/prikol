@@ -47,6 +47,3 @@ function Send-ToTelegram {
     }
 }
 
-# === Выполнение ===
-$info = Get-SystemInfo
-Send-ToTelegram -Message $info
