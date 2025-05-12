@@ -46,4 +46,3 @@ function Send-ToTelegram {
         Write-Error "Ошибка при отправке сообщения в Telegram: $_"
     }
 }
-
